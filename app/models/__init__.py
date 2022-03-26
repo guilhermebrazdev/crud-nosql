@@ -1,0 +1,1 @@
+from app.models.post_model import Post

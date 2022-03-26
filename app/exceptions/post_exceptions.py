@@ -1,0 +1,6 @@
+class IdNotFound(Exception):
+    ...
+
+
+class IncompatibleKeys(Exception):
+    ...
