@@ -16,7 +16,7 @@ def post_route(app):
         return post_controller.post_delete(id)
 
     
-    @app.get("/post/<int:id>")
+    @app.get("/posts/<int:id>")
     def read_post_by_id(id):
 
         return post_controller.get_post_by_id(id) 
